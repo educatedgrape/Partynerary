@@ -1,0 +1,1 @@
+Repository root documentation defining the Partynerary autonomous group-travel flight agent: project scope, phased build plan, and engineering best practices for a cost-ref-backed, ceiling-vetoed itinerary planner.

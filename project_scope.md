@@ -2,7 +2,7 @@
 
 **Autonomous group-travel flight agent. Finalized architectural specification.**
 
-Origin `SIN` · Python 3.14 + React 18 · Atlas sandbox `https://sandbox.atriptech.com`
+Origin `SIN` · Python 3.14 + Next.js (static export) · Atlas sandbox `https://sandbox.atriptech.com`
 
 ---
 
@@ -883,8 +883,16 @@ permissive group.
 
 ## Part A — UI layout & state machine
 
-Single-page React 18 + Vite app, served from `web/dist` by the same stdlib
-`ThreadingHTTPServer` that runs the orchestrator. One command, no second process.
+**Next.js App Router, built as a static export** (`output: 'export'`), served
+from `web/out` by the same stdlib `ThreadingHTTPServer` that runs the
+orchestrator. One command, no second process.
+
+Static export is the requirement, not an optimisation. Next.js in server mode
+would put a Node runtime in the demo path and make the stdlib-only claim false.
+Python owns every API route, so nothing is lost: there is no server-side render
+to do and no route handler to write. The client is a browser app that polls
+`/api/state`, and Next.js supplies the App Router, file-based routing and
+component conventions on top of that.
 
 **State model:** every mutation returns the **whole** state object. The client
 never reconciles a partial update against what it already had — a bug class that
@@ -1475,9 +1483,22 @@ explicitly.
 - **Stdlib only at runtime.** Python 3.14, `urllib` + `http.server`. No
   `pip install`. Embedding generation happens offline at dataset build time and
   ships as a static asset; query-time embedding is table lookup plus arithmetic.
+- **Live is the product. Replay is a recording of it.** The deliverable is an
+  agent that calls Atlas. `LIVE=1` gates live calls so a demo cannot be killed by
+  a rate limit — it is a safety catch on the real thing, not the normal mode of
+  operation. Any component whose only executed path is replay is **unbuilt**,
+  however green its tests are.
 - **All Atlas calls go through `src/atlas/client.py`.** Live calls only behind
   `LIVE=1`.
-- **Every test runs against `/fixtures`.**
+- **Unit tests run against `/fixtures`; acceptance runs live.** These are two
+  different claims and neither substitutes for the other. Fixtures prove logic is
+  deterministic. Only a live call proves the request shape is correct, because
+  replay serves a fixture by key and **never reads the request payload** — a
+  malformed request is indistinguishable from a well-formed one offline.
+- **Every module that builds an Atlas request must be executed live at least
+  once before it is called done.** Passing tests offline is not evidence that a
+  request is well-formed. A capture made by a probe proves the *probe* is
+  correct, never the application.
 - **Gate files.** `src/party/protocol.py`, `src/agent/mandate.py`,
   `src/agent/executor.py`, `src/booking/reprice.py` carry the guarantees this
   document claims. They are short by design, every change to them is reviewed

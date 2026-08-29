@@ -1,0 +1,6 @@
+- Every monetary figure is stored and displayed as a `cost_ref` pointer into an Atlas response cache key (e.g. `search.do:SIN-DPS@20260918#routings[5].adultPrice`) rather than a literal amount, enforced by schema validation that rejects messages carrying an `amount` field.
+- Gate files (`src/party/protocol.py`, `src/agent/mandate.py`, `src/agent/executor.py`, `src/booking/reprice.py`) carry product guarantees and are reviewed line-by-line without unrelated refactors bundled in.
+- Live calls are gated behind `LIVE=1`; otherwise `AtlasClient` raises `LiveCallBlocked`, and all live responses are captured to `fixtures/live/<KEY>.json` for deterministic replay.
+- Ceilings are absolute vetoes on per-person price — they never deplete, are never rounded or out-voted, and any proposal exceeding a member's ceiling is refused outright.
+- Seat count is a hard filter applied per leg (`seatCount >= party_size`); destinations where no routing seats the party surface as explicit gaps rather than silent drops.
+- Re-price runs after user confirmation but before order placement, re-running `search.do` against booked legs and voiding the confirmation if fares rise or flights disappear.

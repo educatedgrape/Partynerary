@@ -221,8 +221,18 @@ python -m unittest tests.test_transport -v
 ```
 
 HTTP 200, contract fields present, the captured response replays offline, and
-the suite passes **with `LIVE` unset** — that last part is what proves
-`fixtures/test/` is real.
+the suite passes **with `LIVE` unset**.
+
+Both halves are required, and they prove different things. The offline pass
+proves `fixtures/test/` is real. **The live call is what proves the request
+shape is correct** — and nothing else can, because replay locates a fixture by
+key and never inspects the payload. A module that has only ever run offline has
+never had its request validated by anything.
+
+> **Standing rule for every phase below.** Any phase that adds or changes code
+> which *builds an Atlas request* carries a live acceptance check in its gate,
+> not only an offline one. `LIVE=1` on a probe script proves the probe works. It
+> says nothing about `src/`.
 
 ---
 
@@ -1778,9 +1788,13 @@ run that is legible while it happens.
 | `web/src/App.jsx`, `api.js`, `Panels.jsx`, `AddAgentModal.jsx` | `CREATE` |
 | `web/src/DecisionModal.jsx`, `StatusStream.jsx`, `Terminal.jsx` | `CREATE` |
 
-Single-page React app served from `web/dist` by the same stdlib
-`ThreadingHTTPServer` that runs the orchestrator — one command, no second
-process.
+Next.js App Router built as a **static export** (`output: 'export'`, no image
+optimiser), served from `web/out` by the same stdlib `ThreadingHTTPServer` that
+runs the orchestrator — one command, no second process.
+
+No `app/api/**` route handlers. Python owns the API; a Next.js route handler
+would require a Node runtime at demo time and break the single-process story.
+Every component that reads state is a client component polling `/api/state`.
 
 **Every mutation returns the whole state object.** The client never reconciles a
 partial update against what it already had, a bug class that surfaces as agents

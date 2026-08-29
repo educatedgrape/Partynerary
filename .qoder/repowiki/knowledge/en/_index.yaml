@@ -1,0 +1,19 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: en-US
+branch: main
+nodes_managed: true
+exported_at: "2026-08-26T16:57:34Z"
+modules:
+    "":
+        dir_name: Partynerary — Autonomous Group-Travel Flight Agent Specification & Build Guide
+        title: Partynerary — Autonomous Group-Travel Flight Agent Specification & Build Guide
+        scope:
+            - README.md
+            - best-practices.md
+            - build-guide.md
+            - project_scope.md
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []

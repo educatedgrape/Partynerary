@@ -1,0 +1,1360 @@
+[
+ {
+  "cityId": "BKI",
+  "cityName": "Kota Kinabalu",
+  "country": "Malaysia",
+  "keywords": [
+   "rainforest",
+   "diving",
+   "mountains",
+   "islands",
+   "wildlife",
+   "seafood"
+  ],
+  "vibes": [
+   "outdoorsy",
+   "tropical",
+   "unhurried",
+   "green"
+  ],
+  "phrases": [
+   "a climbable mountain rising straight off the coast",
+   "reef islands twenty minutes from the pier",
+   "night markets grilling the day's catch"
+  ],
+  "aliases": [
+   "borneo",
+   "kinabalu",
+   "kota kinabalu",
+   "malaysia",
+   "sabah"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "BKK",
+  "cityName": "Bangkok",
+  "country": "Thailand",
+  "keywords": [
+   "street food",
+   "night markets",
+   "temples",
+   "rooftop bars",
+   "canals",
+   "massage"
+  ],
+  "vibes": [
+   "buzzy",
+   "budget-friendly",
+   "high-energy",
+   "humid"
+  ],
+  "phrases": [
+   "street food stalls that run past midnight",
+   "gold temples in the middle of a loud city",
+   "cheap rooftop bars with a skyline view"
+  ],
+  "aliases": [
+   "bangkok",
+   "muay thai",
+   "pad thai",
+   "siam",
+   "thai",
+   "thailand",
+   "tom yum"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "BLR",
+  "cityName": "Bengaluru",
+  "country": "India",
+  "keywords": [
+   "craft beer",
+   "cafes",
+   "live music",
+   "parks",
+   "tech district",
+   "south indian food"
+  ],
+  "vibes": [
+   "mild",
+   "modern",
+   "sociable",
+   "green"
+  ],
+  "phrases": [
+   "dosa for breakfast and a taproom by evening",
+   "weather that never forces you indoors",
+   "live music in venues that hold eighty people"
+  ],
+  "aliases": [
+   "bangalore",
+   "bengaluru",
+   "dosa",
+   "india",
+   "karnataka"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "BNE",
+  "cityName": "Brisbane",
+  "country": "Australia",
+  "keywords": [
+   "river",
+   "beaches nearby",
+   "wildlife",
+   "cafes",
+   "day trips",
+   "outdoor pools"
+  ],
+  "vibes": [
+   "sunny",
+   "easygoing",
+   "green",
+   "unhurried"
+  ],
+  "phrases": [
+   "a swimmable lagoon in the middle of the city",
+   "koalas and kangaroos within a short drive",
+   "coast in both directions within an hour"
+  ],
+  "aliases": [
+   "australia",
+   "brisbane",
+   "gold coast",
+   "queensland"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "BOM",
+  "cityName": "Mumbai",
+  "country": "India",
+  "keywords": [
+   "street food",
+   "beaches",
+   "art deco",
+   "markets",
+   "nightlife",
+   "colonial architecture"
+  ],
+  "vibes": [
+   "relentless",
+   "glamorous",
+   "humid",
+   "sociable"
+  ],
+  "phrases": [
+   "vada pav eaten walking between trains",
+   "an art deco seafront curving around the bay",
+   "bars that fill after the offices empty"
+  ],
+  "aliases": [
+   "bollywood",
+   "bombay",
+   "india",
+   "mumbai",
+   "vada pav"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "CAN",
+  "cityName": "Guangzhou",
+  "country": "China",
+  "keywords": [
+   "dim sum",
+   "markets",
+   "tea houses",
+   "temples",
+   "riverfront",
+   "shopping"
+  ],
+  "vibes": [
+   "food-first",
+   "workaday",
+   "humid",
+   "dense"
+  ],
+  "phrases": [
+   "morning tea that lasts three hours",
+   "a wholesale market for everything imaginable",
+   "a river promenade lit up end to end"
+  ],
+  "aliases": [
+   "canton",
+   "cantonese",
+   "china",
+   "dim sum",
+   "guangzhou"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "CGK",
+  "cityName": "Jakarta",
+  "country": "Indonesia",
+  "keywords": [
+   "street food",
+   "markets",
+   "museums",
+   "old town",
+   "cafes",
+   "malls"
+  ],
+  "vibes": [
+   "sprawling",
+   "budget-friendly",
+   "humid",
+   "workaday"
+  ],
+  "phrases": [
+   "warungs serving rice and sambal on plastic stools",
+   "dutch colonial squares in the old quarter",
+   "enormous malls as refuge from the heat"
+  ],
+  "aliases": [
+   "indonesia",
+   "indonesian",
+   "jakarta",
+   "java",
+   "javanese",
+   "nasi goreng",
+   "rendang"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "CMB",
+  "cityName": "Colombo",
+  "country": "Sri Lanka",
+  "keywords": [
+   "beaches",
+   "tea country",
+   "wildlife",
+   "temples",
+   "surf",
+   "curry"
+  ],
+  "vibes": [
+   "tropical",
+   "green",
+   "unhurried",
+   "budget-friendly"
+  ],
+  "phrases": [
+   "hoppers and curry for breakfast",
+   "tea hills reachable on a slow train",
+   "leopards and elephants in dry-zone parks"
+  ],
+  "aliases": [
+   "ceylon",
+   "colombo",
+   "hoppers",
+   "kottu",
+   "sri lanka",
+   "sri lankan"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "CNX",
+  "cityName": "Chiang Mai",
+  "country": "Thailand",
+  "keywords": [
+   "mountains",
+   "temples",
+   "night markets",
+   "cafes",
+   "trekking",
+   "cooking classes"
+  ],
+  "vibes": [
+   "slow-paced",
+   "creative",
+   "cool-air",
+   "budget-friendly"
+  ],
+  "phrases": [
+   "misty hills a short drive from the old walls",
+   "hundreds of temples inside a small moat",
+   "third-wave coffee in wooden shophouses"
+  ],
+  "aliases": [
+   "chiang mai",
+   "khao soi",
+   "lanna",
+   "thailand"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "CTS",
+  "cityName": "Sapporo",
+  "country": "Japan",
+  "keywords": [
+   "snow",
+   "seafood",
+   "hot springs",
+   "ski slopes",
+   "national parks",
+   "beer"
+  ],
+  "vibes": [
+   "crisp",
+   "outdoorsy",
+   "spacious",
+   "seasonal"
+  ],
+  "phrases": [
+   "powder snow within an hour of the airport",
+   "crab and uni straight off the morning market",
+   "an outdoor hot spring with snow on the rocks"
+  ],
+  "aliases": [
+   "hokkaido",
+   "japan",
+   "miso ramen",
+   "niseko",
+   "sapporo",
+   "uni"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "DAC",
+  "cityName": "Dhaka",
+  "country": "Bangladesh",
+  "keywords": [
+   "street food",
+   "river life",
+   "old town",
+   "rickshaws",
+   "markets",
+   "mosques"
+  ],
+  "vibes": [
+   "intense",
+   "crowded",
+   "humid",
+   "unfiltered"
+  ],
+  "phrases": [
+   "biryani from a shop that has one recipe",
+   "river ferries as ordinary public transport",
+   "a mughal fort marooned in the old city"
+  ],
+  "aliases": [
+   "bangladesh",
+   "bangladeshi",
+   "bengali",
+   "biryani",
+   "dhaka"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "DAD",
+  "cityName": "Da Nang",
+  "country": "Vietnam",
+  "keywords": [
+   "beaches",
+   "mountains",
+   "bridges",
+   "seafood",
+   "hiking",
+   "hot springs"
+  ],
+  "vibes": [
+   "relaxed",
+   "coastal",
+   "green",
+   "budget-friendly"
+  ],
+  "phrases": [
+   "a long city beach that is genuinely swimmable",
+   "marble mountains with caves cut into them",
+   "a mountain pass road above the sea"
+  ],
+  "aliases": [
+   "da nang",
+   "danang",
+   "hoi an",
+   "my khe",
+   "vietnam"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "DEL",
+  "cityName": "Delhi",
+  "country": "India",
+  "keywords": [
+   "street food",
+   "mughal monuments",
+   "bazaars",
+   "museums",
+   "temples",
+   "old city"
+  ],
+  "vibes": [
+   "intense",
+   "layered",
+   "budget-friendly",
+   "historic"
+  ],
+  "phrases": [
+   "chaat from a stall in a lane too narrow for cars",
+   "a red sandstone fort at the edge of the old city",
+   "bazaars organised by what they sell, street by street"
+  ],
+  "aliases": [
+   "biryani",
+   "chaat",
+   "curry",
+   "delhi",
+   "india",
+   "indian",
+   "mughal"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "DPS",
+  "cityName": "Bali",
+  "country": "Indonesia",
+  "keywords": [
+   "beaches",
+   "surf",
+   "rice terraces",
+   "temples",
+   "yoga",
+   "diving"
+  ],
+  "vibes": [
+   "laid-back",
+   "tropical",
+   "spiritual",
+   "social"
+  ],
+  "phrases": [
+   "surf breaks a short ride from where you sleep",
+   "green rice terraces stepping down a valley",
+   "sunset temples on the sea cliffs"
+  ],
+  "aliases": [
+   "bali",
+   "balinese",
+   "canggu",
+   "indonesia",
+   "nusa",
+   "seminyak",
+   "ubud"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "DXB",
+  "cityName": "Dubai",
+  "country": "UAE",
+  "keywords": [
+   "skyscrapers",
+   "desert",
+   "malls",
+   "beaches",
+   "souks",
+   "fine dining"
+  ],
+  "vibes": [
+   "polished",
+   "extravagant",
+   "hot",
+   "engineered"
+  ],
+  "phrases": [
+   "a desert dune drive that ends at dinner",
+   "gold and spice souks across a creek from each other",
+   "beach clubs under a skyline built in thirty years"
+  ],
+  "aliases": [
+   "arabian",
+   "dubai",
+   "emirates",
+   "shawarma",
+   "uae"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "FUK",
+  "cityName": "Fukuoka",
+  "country": "Japan",
+  "keywords": [
+   "ramen",
+   "yatai stalls",
+   "seafood",
+   "hot springs",
+   "beaches",
+   "day trips"
+  ],
+  "vibes": [
+   "compact",
+   "friendly",
+   "food-first",
+   "unhurried"
+  ],
+  "phrases": [
+   "open-air yatai stalls set up on the pavement at dusk",
+   "tonkotsu ramen from the city that invented it",
+   "hot spring towns an hour down the line"
+  ],
+  "aliases": [
+   "beppu",
+   "fukuoka",
+   "hakata",
+   "japan",
+   "kyushu",
+   "tonkotsu"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "HAN",
+  "cityName": "Hanoi",
+  "country": "Vietnam",
+  "keywords": [
+   "street food",
+   "old quarter",
+   "lakes",
+   "coffee",
+   "history",
+   "markets"
+  ],
+  "vibes": [
+   "atmospheric",
+   "budget-friendly",
+   "old-world",
+   "busy"
+  ],
+  "phrases": [
+   "pho on a low stool before the traffic starts",
+   "a lake with a temple on an island in the middle",
+   "egg coffee up a staircase you would walk past"
+  ],
+  "aliases": [
+   "banh mi",
+   "hanoi",
+   "pho",
+   "vietnam",
+   "vietnamese"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "HKG",
+  "cityName": "Hong Kong",
+  "country": "Hong Kong",
+  "keywords": [
+   "dim sum",
+   "skyline",
+   "hiking trails",
+   "markets",
+   "islands",
+   "trams"
+  ],
+  "vibes": [
+   "dense",
+   "cosmopolitan",
+   "high-energy",
+   "humid"
+  ],
+  "phrases": [
+   "dim sum trolleys in a room that never quietens",
+   "a hiking trail that starts where the buses stop",
+   "a tram up to a view of the whole harbour"
+  ],
+  "aliases": [
+   "cantonese",
+   "dim sum",
+   "hong kong",
+   "kowloon"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "HKT",
+  "cityName": "Phuket",
+  "country": "Thailand",
+  "keywords": [
+   "beaches",
+   "diving",
+   "islands",
+   "nightlife",
+   "seafood",
+   "old town"
+  ],
+  "vibes": [
+   "social",
+   "tropical",
+   "high-energy",
+   "touristy"
+  ],
+  "phrases": [
+   "long sand beaches with warm shallow water",
+   "dive boats out to limestone islands",
+   "grilled seafood on the sand after dark"
+  ],
+  "aliases": [
+   "andaman",
+   "patong",
+   "phuket",
+   "thailand"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "ICN",
+  "cityName": "Seoul",
+  "country": "South Korea",
+  "keywords": [
+   "korean bbq",
+   "kpop",
+   "night markets",
+   "palaces",
+   "hiking",
+   "cafes"
+  ],
+  "vibes": [
+   "high-energy",
+   "stylish",
+   "late-night",
+   "modern"
+  ],
+  "phrases": [
+   "grill-your-own barbecue that runs until dawn",
+   "a granite mountain trail inside the city limits",
+   "palace courtyards a block from the shopping streets"
+  ],
+  "aliases": [
+   "bibimbap",
+   "k-pop",
+   "kdrama",
+   "kimchi",
+   "korea",
+   "korean",
+   "korean bbq",
+   "kpop",
+   "seoul",
+   "south korea"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "IST",
+  "cityName": "Istanbul",
+  "country": "Turkey",
+  "keywords": [
+   "bazaars",
+   "mosques",
+   "bosphorus",
+   "meze",
+   "hammams",
+   "byzantine history"
+  ],
+  "vibes": [
+   "layered",
+   "atmospheric",
+   "historic",
+   "sociable"
+  ],
+  "phrases": [
+   "a ferry between two continents for the price of a bus",
+   "domes and minarets stacked up both shores",
+   "meze spread across a table for a whole evening"
+  ],
+  "aliases": [
+   "baklava",
+   "constantinople",
+   "istanbul",
+   "kebab",
+   "turkey",
+   "turkish"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "JOG",
+  "cityName": "Yogyakarta",
+  "country": "Indonesia",
+  "keywords": [
+   "temples",
+   "batik",
+   "palaces",
+   "volcanoes",
+   "art",
+   "street food"
+  ],
+  "vibes": [
+   "cultural",
+   "creative",
+   "slow-paced",
+   "budget-friendly"
+  ],
+  "phrases": [
+   "sunrise over a ninth-century stupa complex",
+   "batik workshops down the back lanes",
+   "gamelan drifting out of a palace courtyard"
+  ],
+  "aliases": [
+   "borobudur",
+   "indonesia",
+   "java",
+   "jogja",
+   "prambanan",
+   "yogyakarta"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "KCH",
+  "cityName": "Kuching",
+  "country": "Malaysia",
+  "keywords": [
+   "rainforest",
+   "wildlife",
+   "riverfront",
+   "longhouses",
+   "markets",
+   "caves"
+  ],
+  "vibes": [
+   "gentle",
+   "green",
+   "unhurried",
+   "local"
+  ],
+  "phrases": [
+   "orangutans in forest reserve rather than a cage",
+   "a river promenade that fills up at dusk",
+   "laksa for breakfast at a covered market"
+  ],
+  "aliases": [
+   "borneo",
+   "kuching",
+   "malaysia",
+   "sarawak"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "KHH",
+  "cityName": "Kaohsiung",
+  "country": "Taiwan",
+  "keywords": [
+   "harbour",
+   "night markets",
+   "temples",
+   "beaches",
+   "art district",
+   "ferries"
+  ],
+  "vibes": [
+   "relaxed",
+   "coastal",
+   "unhurried",
+   "local"
+  ],
+  "phrases": [
+   "a working harbour turned into an art quarter",
+   "a lagoon ringed with dragon and tiger pagodas",
+   "night markets with none of the tourist pricing"
+  ],
+  "aliases": [
+   "kaohsiung",
+   "taiwan"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "KIX",
+  "cityName": "Osaka",
+  "country": "Japan",
+  "keywords": [
+   "street food",
+   "izakaya",
+   "castles",
+   "nightlife",
+   "comedy",
+   "day trips"
+  ],
+  "vibes": [
+   "brash",
+   "sociable",
+   "unpretentious",
+   "food-first"
+  ],
+  "phrases": [
+   "takoyaki eaten standing up in a covered arcade",
+   "a neon canal district that stays loud",
+   "a castle keep in the middle of a park"
+  ],
+  "aliases": [
+   "japan",
+   "kansai",
+   "kyoto",
+   "nara",
+   "okonomiyaki",
+   "osaka",
+   "takoyaki"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "KUL",
+  "cityName": "Kuala Lumpur",
+  "country": "Malaysia",
+  "keywords": [
+   "hawker food",
+   "night markets",
+   "skyline",
+   "malls",
+   "caves",
+   "mosques"
+  ],
+  "vibes": [
+   "cosmopolitan",
+   "budget-friendly",
+   "humid",
+   "modern"
+  ],
+  "phrases": [
+   "hawker centres mixing malay, chinese and indian cooking",
+   "twin towers lit up over a dense downtown",
+   "limestone caves with steps up to a shrine"
+  ],
+  "aliases": [
+   "kuala lumpur",
+   "malaysia",
+   "malaysian",
+   "nasi lemak",
+   "roti canai",
+   "satay"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "LGK",
+  "cityName": "Langkawi",
+  "country": "Malaysia",
+  "keywords": [
+   "beaches",
+   "jungle",
+   "cable car",
+   "islands",
+   "snorkelling",
+   "mangroves"
+  ],
+  "vibes": [
+   "quiet",
+   "tropical",
+   "unhurried",
+   "green"
+  ],
+  "phrases": [
+   "empty sand with jungle running down to it",
+   "a cable car over rainforest to a sky bridge",
+   "island hopping on a small boat"
+  ],
+  "aliases": [
+   "kedah",
+   "langkawi",
+   "malaysia"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "LHR",
+  "cityName": "London",
+  "country": "UK",
+  "keywords": [
+   "museums",
+   "markets",
+   "theatre",
+   "pubs",
+   "parks",
+   "live music"
+  ],
+  "vibes": [
+   "historic",
+   "grey",
+   "endless",
+   "cultural"
+  ],
+  "phrases": [
+   "world-class museums that charge nothing to enter",
+   "a different neighbourhood market every weekend",
+   "pubs older than most countries"
+  ],
+  "aliases": [
+   "britain",
+   "british",
+   "england",
+   "london",
+   "sunday roast",
+   "uk"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "MAA",
+  "cityName": "Chennai",
+  "country": "India",
+  "keywords": [
+   "temples",
+   "beaches",
+   "south indian food",
+   "music",
+   "markets",
+   "colonial fort"
+  ],
+  "vibes": [
+   "traditional",
+   "hot",
+   "unhurried",
+   "cultural"
+  ],
+  "phrases": [
+   "filter coffee and idli before the heat arrives",
+   "a beach that runs for miles along the city",
+   "temple gopurams rising over the rooftops"
+  ],
+  "aliases": [
+   "chennai",
+   "dosa",
+   "filter coffee",
+   "india",
+   "madras",
+   "tamil"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "MEL",
+  "cityName": "Melbourne",
+  "country": "Australia",
+  "keywords": [
+   "coffee",
+   "laneways",
+   "live music",
+   "galleries",
+   "sport",
+   "rooftop bars"
+  ],
+  "vibes": [
+   "arty",
+   "layered",
+   "changeable",
+   "sociable"
+  ],
+  "phrases": [
+   "coffee taken seriously to the point of pedantry",
+   "bars hidden down lanes with no signage",
+   "live music on a weeknight in every suburb"
+  ],
+  "aliases": [
+   "australia",
+   "flat white",
+   "melbourne",
+   "victoria"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "MNL",
+  "cityName": "Manila",
+  "country": "Philippines",
+  "keywords": [
+   "street food",
+   "markets",
+   "nightlife",
+   "colonial history",
+   "malls",
+   "bay sunsets"
+  ],
+  "vibes": [
+   "chaotic",
+   "sociable",
+   "humid",
+   "budget-friendly"
+  ],
+  "phrases": [
+   "grilled skewers and rice from a roadside stall",
+   "a walled spanish quarter inside a huge city",
+   "sunset over the bay from the seawall"
+  ],
+  "aliases": [
+   "adobo",
+   "filipino",
+   "manila",
+   "philippines",
+   "sinigang"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "OKA",
+  "cityName": "Okinawa",
+  "country": "Japan",
+  "keywords": [
+   "beaches",
+   "diving",
+   "islands",
+   "castles",
+   "seafood",
+   "coral reefs"
+  ],
+  "vibes": [
+   "laid-back",
+   "tropical",
+   "distinct",
+   "restful"
+  ],
+  "phrases": [
+   "coral reef straight off a white sand beach",
+   "an island culture that is not quite mainland japan",
+   "diving into blue caves and wrecks"
+  ],
+  "aliases": [
+   "ishigaki",
+   "japan",
+   "naha",
+   "okinawa",
+   "ryukyu"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "PEN",
+  "cityName": "Penang",
+  "country": "Malaysia",
+  "keywords": [
+   "street food",
+   "street art",
+   "shophouses",
+   "colonial history",
+   "cafes",
+   "beaches"
+  ],
+  "vibes": [
+   "slow-paced",
+   "arty",
+   "old-world",
+   "humid"
+  ],
+  "phrases": [
+   "a hawker stall that has cooked one dish for forty years",
+   "murals down peeling shophouse lanes",
+   "clan jetties on stilts over the water"
+  ],
+  "aliases": [
+   "assam laksa",
+   "char kway teow",
+   "georgetown",
+   "malaysia",
+   "penang"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "PER",
+  "cityName": "Perth",
+  "country": "Australia",
+  "keywords": [
+   "beaches",
+   "wineries",
+   "wildlife",
+   "riverfront",
+   "cafes",
+   "coastal walks"
+  ],
+  "vibes": [
+   "relaxed",
+   "spacious",
+   "sunny",
+   "outdoorsy"
+  ],
+  "phrases": [
+   "white beaches almost nobody is standing on",
+   "quokkas on an island a ferry ride offshore",
+   "wine country forty minutes from the centre"
+  ],
+  "aliases": [
+   "australia",
+   "margaret river",
+   "perth",
+   "rottnest",
+   "western australia"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "PUS",
+  "cityName": "Busan",
+  "country": "South Korea",
+  "keywords": [
+   "beaches",
+   "fish market",
+   "hot springs",
+   "temples",
+   "hillside villages",
+   "seafood"
+  ],
+  "vibes": [
+   "coastal",
+   "relaxed",
+   "unpolished",
+   "local"
+  ],
+  "phrases": [
+   "a fish market where you pick it and they cook it",
+   "a temple built out over the sea",
+   "painted houses stacked up a hillside"
+  ],
+  "aliases": [
+   "busan",
+   "haeundae",
+   "korea",
+   "pusan",
+   "south korea"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "PVG",
+  "cityName": "Shanghai",
+  "country": "China",
+  "keywords": [
+   "the bund",
+   "skyline",
+   "dumplings",
+   "art galleries",
+   "old lanes",
+   "markets"
+  ],
+  "vibes": [
+   "cosmopolitan",
+   "fast",
+   "polished",
+   "layered"
+  ],
+  "phrases": [
+   "art deco waterfront facing a futurist skyline",
+   "soup dumplings from a queue that moves fast",
+   "plane tree lanes in the old concession"
+  ],
+  "aliases": [
+   "china",
+   "chinese",
+   "shanghai",
+   "the bund",
+   "xiaolongbao"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "SGN",
+  "cityName": "Ho Chi Minh City",
+  "country": "Vietnam",
+  "keywords": [
+   "street food",
+   "markets",
+   "rooftop bars",
+   "war history",
+   "coffee",
+   "scooters"
+  ],
+  "vibes": [
+   "high-energy",
+   "budget-friendly",
+   "humid",
+   "modern"
+  ],
+  "phrases": [
+   "banh mi carts on every second corner",
+   "rooftop bars above a river of scooters",
+   "war museums that do not soften anything"
+  ],
+  "aliases": [
+   "bun cha",
+   "com tam",
+   "ho chi minh",
+   "ho chi minh city",
+   "saigon",
+   "vietnam"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "SUB",
+  "cityName": "Surabaya",
+  "country": "Indonesia",
+  "keywords": [
+   "street food",
+   "markets",
+   "colonial quarter",
+   "mosques",
+   "cafes",
+   "day trips"
+  ],
+  "vibes": [
+   "workaday",
+   "humid",
+   "local",
+   "budget-friendly"
+  ],
+  "phrases": [
+   "rujak cingur at a stall that only locals use",
+   "a colonial quarter most visitors skip entirely",
+   "a base for the volcano crossings inland"
+  ],
+  "aliases": [
+   "bromo",
+   "east java",
+   "indonesia",
+   "surabaya"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "SYD",
+  "cityName": "Sydney",
+  "country": "Australia",
+  "keywords": [
+   "harbour",
+   "beaches",
+   "coastal walks",
+   "cafes",
+   "surf",
+   "national parks"
+  ],
+  "vibes": [
+   "outdoorsy",
+   "glamorous",
+   "sunny",
+   "sociable"
+  ],
+  "phrases": [
+   "a cliff walk between two famous beaches",
+   "a harbour you cross by ferry as commuting",
+   "brunch as a genuine local institution"
+  ],
+  "aliases": [
+   "australia",
+   "bondi",
+   "nsw",
+   "sydney"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "TPE",
+  "cityName": "Taipei",
+  "country": "Taiwan",
+  "keywords": [
+   "night markets",
+   "hot springs",
+   "mountains",
+   "tea houses",
+   "temples",
+   "bubble tea"
+  ],
+  "vibes": [
+   "welcoming",
+   "unpretentious",
+   "green",
+   "budget-friendly"
+  ],
+  "phrases": [
+   "night markets where the queue tells you what to order",
+   "hot springs at the end of a metro line",
+   "mountain trails that start inside the city"
+  ],
+  "aliases": [
+   "beef noodle",
+   "boba",
+   "bubble tea",
+   "taipei",
+   "taiwan",
+   "taiwanese"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "TYO",
+  "cityName": "Tokyo",
+  "country": "Japan",
+  "keywords": [
+   "ramen",
+   "anime",
+   "neighbourhoods",
+   "izakaya",
+   "museums",
+   "department stores"
+  ],
+  "vibes": [
+   "dense",
+   "polished",
+   "endless",
+   "modern"
+  ],
+  "phrases": [
+   "a six-seat ramen counter with one thing on the menu",
+   "whole districts given over to a single obsession",
+   "izakaya alleys under the railway arches"
+  ],
+  "aliases": [
+   "anime",
+   "japan",
+   "japanese",
+   "manga",
+   "ramen",
+   "shibuya",
+   "sushi",
+   "tokyo"
+  ],
+  "atlasCoverage": "UNPROBED"
+ },
+ {
+  "cityId": "USM",
+  "cityName": "Koh Samui",
+  "country": "Thailand",
+  "keywords": [
+   "beaches",
+   "coconut groves",
+   "diving",
+   "waterfalls",
+   "yoga",
+   "full moon"
+  ],
+  "vibes": [
+   "laid-back",
+   "tropical",
+   "restful",
+   "social"
+  ],
+  "phrases": [
+   "palm-backed bays with flat clear water",
+   "waterfalls a scooter ride into the interior",
+   "beach bars that fill up once a month"
+  ],
+  "aliases": [
+   "gulf of thailand",
+   "koh samui",
+   "samui",
+   "thailand"
+  ],
+  "atlasCoverage": "UNPROBED"
+ }
+]

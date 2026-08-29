@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "routings": [
+    {
+      "fromSegments": [
+        {
+          "flightNumber": "TR560",
+          "seatCount": 9,
+          "fareFamily": "basic",
+          "depAirport": "SIN",
+          "arrAirport": "DPS",
+          "depTime": "202609180620",
+          "arrTime": "202609180930"
+        }
+      ],
+      "adultPrice": 45.50,
+      "adultTax": 12.30,
+      "transactionFee": 0.00,
+      "totalTripDuration": 3.17,
+      "totalTransitDuration": 0,
+      "carriers": ["TR"],
+      "isMultiCarrier": false,
+      "throughCheckedBaggage": false
+    },
+    {
+      "fromSegments": [
+        {
+          "flightNumber": "TR562",
+          "seatCount": 5,
+          "fareFamily": "basic",
+          "depAirport": "SIN",
+          "arrAirport": "DPS",
+          "depTime": "202609181400",
+          "arrTime": "202609181710"
+        }
+      ],
+      "adultPrice": 52.00,
+      "adultTax": 14.10,
+      "transactionFee": 0.00,
+      "totalTripDuration": 3.17,
+      "totalTransitDuration": 0,
+      "carriers": ["TR"],
+      "isMultiCarrier": false,
+      "throughCheckedBaggage": false
+    },
+    {
+      "fromSegments": [
+        {
+          "flightNumber": "GA836",
+          "seatCount": 12,
+          "fareFamily": "value",
+          "depAirport": "SIN",
+          "arrAirport": "DPS",
+          "depTime": "202609180815",
+          "arrTime": "202609181125"
+        }
+      ],
+      "adultPrice": 78.90,
+      "adultTax": 21.50,
+      "transactionFee": 2.00,
+      "totalTripDuration": 3.17,
+      "totalTransitDuration": 0,
+      "carriers": ["GA"],
+      "isMultiCarrier": false,
+      "throughCheckedBaggage": false
+    }
+  ]
+}

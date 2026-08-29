@@ -1,0 +1,1 @@
+Python 3.14 + React 18 + Vite; Atlas sandbox API as the sole source of truth for inventory/pricing; offline sentence-transformers/all-MiniLM-L6-v2 vectors built into committed artifacts under `data/`; stdlib-only runtime with fenced build-time tooling under `tools/`.

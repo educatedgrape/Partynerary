@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: ""
+title: Partynerary — Autonomous Group-Travel Flight Agent Specification & Build Guide
+scope:
+    - README.md
+    - best-practices.md
+    - build-guide.md
+    - project_scope.md
+source_files: []
+depends_on: []
+related_to: []
