@@ -1,0 +1,3 @@
+# BUILD TIME ONLY. Never imported from src/. Installed only when regenerating
+# data/vectors.json - the app runs on the committed artifact, stdlib alone.
+sentence-transformers==3.*

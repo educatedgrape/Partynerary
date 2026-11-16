@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "routings": [
+    {
+      "fromSegments": [
+        {
+          "flightNumber": "TR561",
+          "seatCount": 7,
+          "fareFamily": "basic",
+          "depAirport": "DPS",
+          "arrAirport": "SIN",
+          "depTime": "202609221030",
+          "arrTime": "202609221340"
+        }
+      ],
+      "adultPrice": 48.25,
+      "adultTax": 13.00,
+      "transactionFee": 0.00,
+      "totalTripDuration": 3.17,
+      "totalTransitDuration": 0,
+      "carriers": ["TR"],
+      "isMultiCarrier": false,
+      "throughCheckedBaggage": false
+    },
+    {
+      "fromSegments": [
+        {
+          "flightNumber": "GA837",
+          "seatCount": 3,
+          "fareFamily": "value",
+          "depAirport": "DPS",
+          "arrAirport": "SIN",
+          "depTime": "202609221545",
+          "arrTime": "202609221855"
+        }
+      ],
+      "adultPrice": 85.40,
+      "adultTax": 22.80,
+      "transactionFee": 2.00,
+      "totalTripDuration": 3.17,
+      "totalTransitDuration": 0,
+      "carriers": ["GA"],
+      "isMultiCarrier": false,
+      "throughCheckedBaggage": false
+    }
+  ]
+}

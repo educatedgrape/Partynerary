@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body { height: 100%; }
+  body {
+    @apply bg-canvas text-ink font-hud antialiased;
+    /* One cool glow bleeding in from the top right, the way a HUD is lit by the
+       instrument it belongs to. Everything else stays flat so the panels are
+       what separate from the page. */
+    background-image:
+      radial-gradient(1200px 620px at 92% -10%, rgba(56,189,248,0.10), transparent 62%),
+      radial-gradient(900px 480px at 4% 104%, rgba(34,211,238,0.06), transparent 60%);
+    background-attachment: fixed;
+  }
+  /* Pixel art must never be smoothed - the whole look depends on hard edges. */
+  .pixelated { image-rendering: pixelated; shape-rendering: crispEdges; }
+}
+
+@layer components {
+  /* Glassmorphism. On a dark ground the pane is a near-transparent fill, a 1px
+     lit edge, and a blur - the depth comes from the edge catching light, not
+     from a shadow nobody can see. */
+  .hud {
+    @apply relative rounded-lg border border-glass-edge bg-glass
+           backdrop-blur-xl shadow-hud;
+  }
+  .hud-strong {
+    @apply relative rounded-lg border border-glass-edge bg-surface/85
+           backdrop-blur-2xl shadow-hud-lg;
+  }
+  /* Section headers are mono caps - the "organised instrument panel" cue that
+     does most of the work in this design system. */
+  .hud-label {
+    @apply font-pixel text-[11px] font-medium uppercase tracking-[0.1em] text-ink3;
+  }
+  .hud-divider { @apply h-px w-full bg-gradient-to-r from-transparent via-glass-edge to-transparent; }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded px-4 py-2
+           font-pixel text-[12px] font-medium uppercase tracking-[0.06em]
+           transition-all duration-200
+           disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none;
+  }
+  /* Vibrant sky on dark navy text, per the design system. White on #38bdf8
+     fails contrast; the navy reads as a lit key rather than a smudge. */
+  .btn-primary {
+    @apply btn bg-gradient-to-br from-brand-400 to-brand-500 text-canvas shadow-glow
+           hover:from-brand-300 hover:to-brand-400 hover:shadow-glow-lg;
+  }
+  .btn-glow {
+    @apply btn bg-gradient-to-br from-accent-500 to-accent-600 text-canvas
+           shadow-[0_0_20px_rgba(34,211,238,0.2)]
+           hover:from-accent-400 hover:to-accent-500
+           hover:shadow-[0_0_32px_rgba(34,211,238,0.3)];
+  }
+  /* Ghost = slate outline, per the design system. */
+  .btn-ghost {
+    @apply btn border border-glass-edge bg-white/[0.03] text-ink2 backdrop-blur-sm
+           hover:border-brand-500/50 hover:bg-white/[0.07] hover:text-ink;
+  }
+  .btn-warn { @apply btn bg-warn text-canvas hover:brightness-110; }
+
+  .field {
+    @apply w-full rounded border border-glass-edge bg-black/25 px-3 py-2
+           text-sm text-ink backdrop-blur-sm placeholder:text-ink3/70
+           transition-all focus:border-brand-500 focus:bg-black/40
+           focus:outline-none focus:shadow-glow;
+  }
+  .tag {
+    @apply cursor-pointer select-none rounded border px-2 py-1 font-pixel
+           text-[11px] font-medium uppercase tracking-wider transition-colors;
+  }
+
+  /* A card's state is read off the 4px accent bar down its left edge before
+     any of its text is. */
+  .accent-bar {
+    @apply before:absolute before:inset-y-0 before:left-0 before:w-[3px]
+           before:rounded-l before:content-[''];
+  }
+
+  /* Retro speech bubble. On dark it becomes a lit slab: a bright rim, a deep
+     fill, and a glow in its own tone, so it still reads as a drawn object
+     rather than a tooltip. */
+  .bubble {
+    @apply relative rounded border border-brand-400/70 bg-surface3/95 px-2 py-1
+           font-pixel text-[11px] leading-tight text-ink backdrop-blur-md;
+    box-shadow: 0 0 14px rgba(56,189,248,0.18), inset 0 1px 0 rgba(255,255,255,0.08);
+  }
+  .bubble::after {
+    content: '';
+    @apply absolute left-1/2 h-2 w-2 -translate-x-1/2 border-b border-r
+           border-brand-400/70 bg-surface3;
+    bottom: -5px;
+    transform: translateX(-50%) rotate(45deg);
+  }
+  .bubble-veto {
+    @apply border-danger/80;
+    box-shadow: 0 0 14px rgba(255,180,171,0.2), inset 0 1px 0 rgba(255,255,255,0.08);
+  }
+  .bubble-veto::after { @apply border-danger/80; }
+  .bubble-accept {
+    @apply border-ok/80;
+    box-shadow: 0 0 14px rgba(95,211,154,0.2), inset 0 1px 0 rgba(255,255,255,0.08);
+  }
+  .bubble-accept::after { @apply border-ok/80; }
+}
+
+/* Thin scrollbars. */
+* { scrollbar-width: thin; scrollbar-color: #303539 transparent; }
+*::-webkit-scrollbar { width: 6px; height: 6px; }
+*::-webkit-scrollbar-thumb { background: #303539; border-radius: 9999px; }
+*::-webkit-scrollbar-thumb:hover { background: #87929a; }
+*::-webkit-scrollbar-track { background: transparent; }

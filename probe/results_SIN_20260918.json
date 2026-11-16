@@ -1,0 +1,301 @@
+{
+  "origin": "SIN",
+  "date": "20260918",
+  "reachable": [
+    {
+      "dest": "DPS",
+      "routings": 34,
+      "cheapest": 48.23,
+      "max_seats": 0
+    },
+    {
+      "dest": "CGK",
+      "routings": 51,
+      "cheapest": 17.15,
+      "max_seats": 0
+    },
+    {
+      "dest": "SUB",
+      "routings": 7,
+      "cheapest": 54.09,
+      "max_seats": 0
+    },
+    {
+      "dest": "MDC",
+      "routings": 1,
+      "cheapest": 209.72,
+      "max_seats": 0
+    },
+    {
+      "dest": "LOP",
+      "routings": 2,
+      "cheapest": 95.79,
+      "max_seats": 0
+    },
+    {
+      "dest": "BKK",
+      "routings": 7,
+      "cheapest": 33.07,
+      "max_seats": 0
+    },
+    {
+      "dest": "DMK",
+      "routings": 1,
+      "cheapest": 33.07,
+      "max_seats": 0
+    },
+    {
+      "dest": "HKT",
+      "routings": 3,
+      "cheapest": 26.34,
+      "max_seats": 0
+    },
+    {
+      "dest": "CEI",
+      "routings": 1,
+      "cheapest": 44.86,
+      "max_seats": 0
+    },
+    {
+      "dest": "USM",
+      "routings": 3,
+      "cheapest": 125.28,
+      "max_seats": 0
+    },
+    {
+      "dest": "LGK",
+      "routings": 22,
+      "cheapest": 7.88,
+      "max_seats": 0
+    },
+    {
+      "dest": "BKI",
+      "routings": 25,
+      "cheapest": 32.1,
+      "max_seats": 0
+    },
+    {
+      "dest": "KCH",
+      "routings": 23,
+      "cheapest": 24.79,
+      "max_seats": 0
+    },
+    {
+      "dest": "MNL",
+      "routings": 18,
+      "cheapest": 20.9,
+      "max_seats": 0
+    },
+    {
+      "dest": "CEB",
+      "routings": 1,
+      "cheapest": 133.16,
+      "max_seats": 0
+    },
+    {
+      "dest": "CRK",
+      "routings": 2,
+      "cheapest": 96.5,
+      "max_seats": 0
+    },
+    {
+      "dest": "DVO",
+      "routings": 1,
+      "cheapest": 88.54,
+      "max_seats": 0
+    },
+    {
+      "dest": "SGN",
+      "routings": 25,
+      "cheapest": 0.59,
+      "max_seats": 0
+    },
+    {
+      "dest": "HAN",
+      "routings": 22,
+      "cheapest": 21.67,
+      "max_seats": 0
+    },
+    {
+      "dest": "DAD",
+      "routings": 2,
+      "cheapest": 37.4,
+      "max_seats": 0
+    },
+    {
+      "dest": "CXR",
+      "routings": 2,
+      "cheapest": 48.96,
+      "max_seats": 0
+    },
+    {
+      "dest": "HKG",
+      "routings": 10,
+      "cheapest": 47.74,
+      "max_seats": 0
+    },
+    {
+      "dest": "ICN",
+      "routings": 2,
+      "cheapest": 58.44,
+      "max_seats": 0
+    },
+    {
+      "dest": "PUS",
+      "routings": 1,
+      "cheapest": 60.79,
+      "max_seats": 0
+    },
+    {
+      "dest": "NRT",
+      "routings": 14,
+      "cheapest": 44.94,
+      "max_seats": 0
+    },
+    {
+      "dest": "KIX",
+      "routings": 28,
+      "cheapest": 26.89,
+      "max_seats": 0
+    },
+    {
+      "dest": "FUK",
+      "routings": 7,
+      "cheapest": 6.79,
+      "max_seats": 0
+    },
+    {
+      "dest": "CTS",
+      "routings": 1,
+      "cheapest": 140.89,
+      "max_seats": 0
+    },
+    {
+      "dest": "NGO",
+      "routings": 1,
+      "cheapest": 232.19,
+      "max_seats": 0
+    },
+    {
+      "dest": "TPE",
+      "routings": 9,
+      "cheapest": 28.39,
+      "max_seats": 0
+    },
+    {
+      "dest": "KHH",
+      "routings": 1,
+      "cheapest": 53.38,
+      "max_seats": 0
+    },
+    {
+      "dest": "SHA",
+      "routings": 1,
+      "cheapest": 67.73,
+      "max_seats": 0
+    },
+    {
+      "dest": "CAN",
+      "routings": 21,
+      "cheapest": 27.49,
+      "max_seats": 0
+    },
+    {
+      "dest": "BOM",
+      "routings": 47,
+      "cheapest": 45.26,
+      "max_seats": 0
+    },
+    {
+      "dest": "DEL",
+      "routings": 47,
+      "cheapest": 75.38,
+      "max_seats": 0
+    },
+    {
+      "dest": "MAA",
+      "routings": 67,
+      "cheapest": 45.97,
+      "max_seats": 0
+    },
+    {
+      "dest": "BLR",
+      "routings": 52,
+      "cheapest": 53.3,
+      "max_seats": 0
+    },
+    {
+      "dest": "HYD",
+      "routings": 50,
+      "cheapest": 56.3,
+      "max_seats": 0
+    },
+    {
+      "dest": "COK",
+      "routings": 36,
+      "cheapest": 58.9,
+      "max_seats": 0
+    },
+    {
+      "dest": "CMB",
+      "routings": 16,
+      "cheapest": 45.65,
+      "max_seats": 0
+    },
+    {
+      "dest": "SYD",
+      "routings": 1,
+      "cheapest": 228.95,
+      "max_seats": 0
+    },
+    {
+      "dest": "MEL",
+      "routings": 2,
+      "cheapest": 142.15,
+      "max_seats": 0
+    },
+    {
+      "dest": "BNE",
+      "routings": 2,
+      "cheapest": 81.72,
+      "max_seats": 0
+    },
+    {
+      "dest": "PER",
+      "routings": 2,
+      "cheapest": 47.62,
+      "max_seats": 0
+    },
+    {
+      "dest": "DXB",
+      "routings": 11,
+      "cheapest": 87.91,
+      "max_seats": 0
+    },
+    {
+      "dest": "KUL",
+      "routings": 23,
+      "cheapest": 0.0,
+      "max_seats": 0
+    },
+    {
+      "dest": "PEN",
+      "routings": 38,
+      "cheapest": 15.02,
+      "max_seats": 0
+    }
+  ],
+  "empty": [
+    "PKY",
+    "PNK",
+    "CNX",
+    "PNH",
+    "REP",
+    "PEK",
+    "SZX",
+    "CKG",
+    "DOH"
+  ],
+  "errors": [],
+  "city_airport_notes": []
+}
